@@ -1,0 +1,5 @@
+spring:
+  security:
+    user:
+      name: ankit
+      password: Pakfat50
