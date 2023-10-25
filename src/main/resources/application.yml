@@ -1,5 +1,16 @@
+#spring:
+#  security:
+#    user:
+#      name: ankit
+#      password: Pakfat50
 spring:
-  security:
-    user:
-      name: ankit
-      password: Pakfat50
+  datasource:
+    url: jdbc:mysql://springsecurity.cxwwnyyd4lbj.eu-north-1.rds.amazonaws.com/accountmngmnt
+    username: admin
+    password: Pakfat50
+
+  jap:
+    show-sql: true
+    properties:
+      hibernate:
+        formate_sql: true
